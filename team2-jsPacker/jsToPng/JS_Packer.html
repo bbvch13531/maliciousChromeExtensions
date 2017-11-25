@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>JS Packer</title>
+</head>
+<body>
+<h1>JS Packer</h1>
+<p>pack JavaScript into a self-extracting PNG</p>
+<h2>usage</h2>
+<ol>
+  <li>Paste your JS code into the textarea</li>
+  <li>Press the pack button</li>
+  <li>Download the result (either the dataURI or the image)</li>
+  <li>Open it in your WebBrowser as a html file</li>
+</ol>
+
+<textarea id="input" style="display:block; width:100%; height:10em;">
+var a = 1;
+var b = 2;
+alert( a + b );
+</textarea>
+<button id="button">pack the js into a png</button>
+<hr>
+<div id="result"></div>
+<div id="debug"></div>
+
+<script src="./canvastool.pngencoder.min.js"></script>
+<script src="./jsPacker.js"></script>
+
+
+</body>
+</html>
