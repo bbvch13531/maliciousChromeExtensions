@@ -1,0 +1,25 @@
+{
+  "name": "team2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "NodePut.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mysql": "^2.15.0",
+    "socketio": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ni5am/team2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ni5am/team2/issues"
+  },
+  "homepage": "https://github.com/ni5am/team2#readme"
+}
